@@ -1,16 +1,17 @@
 /*header Start*/
 .fst_nav{
     display: inline-flex;
-   
+   padding: 1px;
+   border-bottom: 1px solid gray;
 }
 .main_logo img{
    
     width: 30%;
-    padding: 15px;
+    padding: 10px;
 }
 .main_list li{
     display: inline-flex;
-    padding: 15px;
+    padding: 10px;
     
 
 }
@@ -26,6 +27,7 @@
 /*Section Start*/
 section{
     padding: 40px;
+    font-size: x-small;
 }
 .fst_img{
     padding: 30px;
@@ -40,7 +42,7 @@ section{
     text-align: center;
     color: gray;
 
-    border: 2px solid black;
+   
 }
 .about_img1{
     padding: 259 × 194 px; 
@@ -51,6 +53,22 @@ section{
     width: 250px;
 }
 
+.Blog p{
+    font-size: x-small;
+}
+.Blog svg{
+    margin: 5px 0 0 8px;
+}
+.Blog img{
+    
+    height: 110px;
+    width:  150px;
+    border-radius: 5px;
+    
+    
+    
+}
+
 
 
 /*Section End*/
@@ -59,6 +77,8 @@ section{
 footer{
     background-color: black;
     padding: 20px 0 0 20px;
+    align-items: center;
+    text-align: center;
     
 }
 .footer_doc{
