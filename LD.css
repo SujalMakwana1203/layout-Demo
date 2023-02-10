@@ -6,7 +6,7 @@
 }
 .main_logo img{
    
-    width: 30%;
+    width: 50%;
     padding: 10px;
 }
 .main_list li{
@@ -19,18 +19,20 @@
     color: black;
 }
 .header_icon img{
-    width: 30%;
+    width: 2%;
 }
 
 /*header End*/
 
 /*Section Start*/
 section{
-    padding: 40px;
+    padding: 10px;
     font-size: x-small;
 }
+
 .fst_img{
     padding: 30px;
+    
 } 
 .join{
     padding: 100px;
@@ -44,6 +46,9 @@ section{
 
    
 }
+.aboutall_img{
+    border-radius: 20px;
+}
 .about_img1{
     padding: 259 × 194 px; 
 }
@@ -55,6 +60,7 @@ section{
 
 .Blog p{
     font-size: x-small;
+    
 }
 .Blog svg{
     margin: 5px 0 0 8px;
