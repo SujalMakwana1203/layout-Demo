@@ -46,20 +46,74 @@ section{
 
    
 }
-.aboutall_img{
+.aboutall_img img{
+    padding: 10px;
+    align-items: center;
+    
+}
+.about_img1 img{
+    height: 100%;
+    width: 100%;
+   
+}
+.about_img1{
+    position: relative;
+    text-align: center;
+}
+.aboutimg1_content{
+    position: absolute;
+    bottom: 0;
+    right: 50;
+    background-color: white;
+    padding: 20px 50px 5px 45px ;
     border-radius: 20px;
+    
 }
-.about_img1{
-    padding: 259 × 194 px; 
+
+.about_img2 img{
+    height: 50%;
+    width: 100%;
+ 
 }
-.about_img1{
-    height: 200px;
-    aspect-ratio: auto 250 / 200;
-    width: 250px;
+.about_img2{
+    position: relative;
+    text-align: center;
 }
+.aboutimg2_content{
+    position: absolute;
+    bottom: 0;
+    right: 60;
+    top: 80;
+    background-color: white;
+    padding:15px 40px 0 45px ;
+    border-radius: 20px;
+    
+}
+
+.about_img3 img{
+    height: 50%;
+    width: 100%;
+ 
+}
+.about_img3{
+    position: relative;
+    text-align: center;
+}
+.aboutimg3_content{
+    position: absolute;
+    bottom: 0;
+    right: 60;
+    top:269;
+    background-color: white;
+    padding: 10px 45px 0 40px ;
+    border-radius: 15px;
+}
+
+
 
 .Blog p{
     font-size: x-small;
+    
     
 }
 .Blog svg{
@@ -82,10 +136,8 @@ section{
 /*Footer Start*/
 footer{
     background-color: black;
-    padding: 20px 0 0 20px;
-    align-items: center;
-    text-align: center;
-    
+    padding: 20px;
+    justify-content: center;
 }
 .footer_doc{
     padding: 10px;
@@ -94,13 +146,14 @@ footer{
 .copyright{
     color: white;
 }
+
 footer li {
     
     text-decoration: none;
     list-style: none;
     display: inline-flex;
-    padding: 0 0 0 100px;
-        
+    padding: 0 0 0 60px;
+
     color: white;
 }
 .last_list li a{
@@ -108,5 +161,9 @@ footer li {
     color: white;
     
 }
-
+footer li:not(:first-child)::before{
+    content: "|";
+    margin-right: 50px;
+    color: wheat;
+}
 /*Footer End*/
